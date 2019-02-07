@@ -27,5 +27,9 @@ public class Triangle {
 		return area;
 
 	}
+	
+	public boolean isEquilateral() {
+		return ((this.side1 == this.side2) && (this.side2 == this.side3));
+	}
 
 }
